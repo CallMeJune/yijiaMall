@@ -363,53 +363,45 @@ img {
 	float: left;
 }
 
-#all .cent .cent-left ul.faq {
+#all .cent .cent-left .childmenu{
 	width: 206px;
 	height: 380px;
 }
 
-#all .cent .cent-left ul.faq li dl dt {
-	background: url(../image/jt.gif) no-repeat right;
-	width: 197px;
-	height: 33px;
-	line-height: 33px;
-	padding-left: 9px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #c82324;
+#all .cent .cent-left .childmenu b{
+	/*display: inline-block;*/
 	cursor: pointer;
-	background-color: #f9f9f9;
+	padding-left:20px ;
+	line-height: 32px;
+	font-size: 14px;
+	color: #C82324;
 }
-
-#all .cent .cent-left ul.faq li dl .allsort {
-	line-height: 30px;
-}
-
-#all .cent .cent-left ul.faq li dl .allsort1 {
-	display: none;
-}
-
-#all .cent .cent-left ul.faq li dl .allsort p {
-	padding-left: 20px;
-}
-
-#all .cent .cent-left ul.faq li dl .allsort .details {
-	position: absolute;
-	left: 207px;
-	top: 0;
-	width: 500px;
-	height: 250px;
-	border: 1px solid red;
-	background-color: #fff;
-	z-index: 10000;
-	display: none;
-}
-
-#all .cent .cent-left .remind {
+#all .cent .cent-left .childmenu .menu-body{
 	width: 206px;
-	line-height: 33px;
-	text-align: center;
+	height: 210px;
+	position: relative;
 }
+#all .cent .cent-left .childmenu span{
+	float: left;
+	width: 176px;
+	line-height: 30px;
+	padding-left: 30px;
+	color: #464646;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #all .cent .cent-center {
 	width: 740px;

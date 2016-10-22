@@ -1,0 +1,655 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+img {
+	border: none;
+}
+#all {
+	width: 100%;
+	height: 100%;
+}
+#all .header {
+	width: 100%;
+	height: 30px;
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #ccc;
+}
+
+#all .header .container {
+	width: 1210px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#all .header .indl-left {
+	float: left;
+	width: 598px;
+	height: 30px;
+}
+
+#all .header .indl-left ul {
+	float: left;
+	width: 598px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#all .header .indl-left ul li {
+	float: left;
+	height: 30px;
+}
+
+#all .header .indl-left ul li a {
+	color: #656565;
+	border-right: 1px solid #ccc;
+	padding-left: 13px;
+	padding-right: 12px;
+}
+
+#all .header .indl-left ul li a.buy {
+	border-right: none;
+}
+
+#all .header .indl-left ul li a:hover {
+	color: #c82324;
+}
+
+#all .header .indl-right {
+	float: right;
+	width: 612px;
+	height: 30px;
+}
+
+#all .header .indl-right dl {
+	float: left;
+	line-height: 30px;
+}
+
+#all .header .indl-right dl dt {
+	float: left;
+	color: #656565;
+}
+
+#all .header .indl-right dl dd {
+	float: left;
+	line-height: 30px;
+}
+
+#all .header .indl-right dl dd a {
+	color: #000;
+}
+
+#all .header .indl-right dl dd a:hover {
+	color: red;
+}
+
+#all .header .indl-right ul {
+	float: right;
+	line-height: 30px;
+}
+
+#all .header .indl-right ul li {
+	float: left;
+}
+
+#all .header .indl-right ul li a {
+	padding-left: 10px;
+	padding-right: 9px;
+	border-right: 1px solid #ccc;
+	color: #656565;
+}
+
+#all .header .indl-right ul li a:hover {
+	color: #c82324;
+}
+
+#all .logo {
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+}
+
+#all .logo .container {
+	width: 1210px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#all .logo .container .logos {
+	width: 340px;
+	height: 90px;
+	float: left;
+}
+
+#all .logo .container .consult {
+	float: left;
+	width: 126px;
+	height: 90px;
+}
+
+#all .logo .container .search {
+	float: left;
+	widows: 500px;
+	height: 59px;
+	margin-top: 17px;
+}
+
+#all .logo .container .search {
+	float: left;
+	width: 500px;
+}
+
+#all .logo .container .search dl dt {
+	float: left;
+	width: 419px;
+}
+
+#all .logo .container .search dl dt .txt {
+	border: none;
+	width: 415px;
+	height: 32px;
+	border: 2px solid #c82324;
+}
+
+#all .logo .container .search dl dd {
+	float: left;
+	width: 81px;
+}
+
+#all .logo .container .search dl dd .sear {
+	float: left;
+	width: 81px;
+	height: 36px;
+	background-color: #c82324;
+	border: none;
+	text-align: center;
+	color: #fcfcfc;
+	font-size: 14px;
+}
+
+#all .logo .container .search .hot-search {
+	width: 500px;
+	height: 23px;
+	float: left;
+	line-height: 23px;
+}
+
+#all .logo .container .search .hot-search p span {
+	color: #989898;
+}
+
+#all .logo .container .search .hot-search p a {
+	color: #333333;
+}
+
+#all .logo .container .search .hot-search p a:hover {
+	color: #e2373a;
+}
+
+#all .logo .container .weixin {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-left: 6px;
+}
+
+#all .logo .container .shopping-cart {
+	float: left;
+	width: 126px;
+	height: 44px;
+	margin-top: 15px;
+	margin-left: 20px;
+	background: url(../image/new_gwc.gif) no-repeat;
+}
+
+#all .logo .container .shopping-cart dl {
+	float: left;
+	widows: 126px;
+}
+
+#all .logo .container .shopping-cart dl dt {
+	float: left;
+	color: #fff;
+	padding-left: 26px;
+}
+
+#all .logo .container .shopping-cart dl dd {
+	float: left;
+	margin-top: 5px;
+	margin-left: 32px;
+}
+
+#all .logo .container .shopping-cart dl dd a {
+	color: #656565;
+}
+
+#all .logo .container .shopping-cart dl dd a:hover {
+	color: red;
+}
+
+#all .menu {
+	width: 100%;
+	height: 39px;
+	border-bottom: 2px solid #c82324;
+	background-color: #f8f8f8;
+}
+
+#all .menu .container {
+	width: 1209px;
+	height: 39px;
+	margin: 0 auto;
+	border-right: 1px solid #ccc;
+}
+
+#all .menu .container .classify {
+	float: left;
+	width: 210px;
+	height: 39px;
+	background: #c82324;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 39px;
+	cursor: pointer;
+}
+
+#all .menu .container ul {
+	float: left;
+	width: 880px;
+	height: 39px;
+	line-height: 39px;
+}
+
+#all .menu .container ul li {
+	float: left;
+}
+
+#all .menu .container ul li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding: 0 15px;
+}
+
+#all .menu .container ul li a:hover {
+	color: #c82324;
+}
+
+#all .menu .container p {
+	float: right;
+	margin-right: 13px;
+	line-height: 39px;
+}
+
+#all .menu .container p a {
+	color: #c82324;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#all .banner{
+	width: 1210px;
+	height: 260px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 8px;
+	background: url(../image/topbanner.jpg) no-repeat center #50078d;
+}
+#all .banner .sec{
+	position: absolute;
+	top: 233px;
+	left: 155px;
+}
+#all .zhuanqu{
+	width: 947px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: url(../image/titlebg.png) no-repeat;
+	position: relative;
+}
+#all .zhuanqu .kuang{
+	position: absolute;
+	top: 34px;
+	width: 943px;
+	height: 12px;
+	border: 2px solid #dddddd;
+}
+#all .sec-buy{
+	width: 947px;
+	height: 288px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#all .sec-buy .travel{
+	width: 460px;
+	height: 282px;
+	border: 3px solid #652d98;
+	float: left;
+}
+#all .sec-buy .travel dl{
+	float: left;
+	width: 448px;
+	height: 232px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#all .sec-buy .travel dl dt{
+	float: left;
+	width: 218px;
+	height: 232px;
+}
+#all .sec-buy .travel dl dd{
+	float: left;
+	width: 221px;
+	height: 232px;
+	margin-left: 9px;
+}
+#all .sec-buy .travel dl dd strong{
+	float: left;
+	width: 221px;
+	height: 22px;
+	line-height: 22px;
+	border-bottom: 1px solid #d8d2ba;
+}
+#all .sec-buy .travel dl dd .price{
+	float: left;
+	width: 221px;
+	height: 95px;
+	margin-top: 20px;
+}
+#all .sec-buy .travel dl dd .surplus{
+	width: 221px;
+	float: left;
+	margin-top: 5px;
+	line-height: 22px;
+}
+#all .sec-buy .travel dl dd .fast{
+	width: 221px;
+	height: 47px;
+	float: left;
+	margin-top: 15px;
+}
+
+#all .sec-buy .honey{
+	width: 460px;
+	height: 282px;
+	border: 3px solid #652d98;
+	float: left;
+	margin-left: 15px;
+}
+#all .sec-buy .honey dl{
+	float: left;
+	width: 448px;
+	height: 232px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#all .sec-buy .honey dl dt{
+	float: left;
+	width: 218px;
+	height: 232px;
+}
+#all .sec-buy .honey dl dd{
+	float: left;
+	width: 221px;
+	height: 232px;
+	margin-left: 9px;
+}
+#all .sec-buy .honey dl dd strong{
+	float: left;
+	width: 221px;
+	height: 22px;
+	line-height: 22px;
+	border-bottom: 1px solid #d8d2ba;
+}
+#all .sec-buy .honey dl dd .price{
+	float: left;
+	width: 221px;
+	height: 95px;
+	margin-top: 20px;
+}
+#all .sec-buy .honey dl dd .surplus{
+	width: 221px;
+	float: left;
+	margin-top: 5px;
+	line-height: 22px;
+}
+#all .sec-buy .honey dl dd .fast{
+	width: 221px;
+	height: 47px;
+	float: left;
+	margin-top: 15px;
+}
+
+
+
+#all .nextpage {
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	background-color: #4b4b4b;
+	z-index: 99999;
+}
+#all .nextpage ul{
+	float: right;
+	margin-top: 4px;
+}
+#all .nextpage ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+
+#all .online-customer-service {
+	position: fixed;
+	top: 200px;
+	right: 5px;
+	z-index: 20000;
+	width: 36px;
+	height: 36px;
+	background-color: #a5a6a6;
+	display: none;
+}
+#all .hide{
+	position: fixed;
+	background-color: #a5a6a6;
+	top: 200px;
+	right: 5px;
+	width: 170px;
+	height: 205px;
+	border-radius: 8px;
+	z-index: 10000;
+	
+}
+#all .hide .h-title{
+	width: 170px;
+	height: 20px;
+	float: left;
+}
+#all .hide .h-con{
+	width: 160px;
+	height: 175px;
+	background-color:#fff ;
+	float: left;
+	margin-top: 2px;
+	margin-left: 5px;
+	border: 1px solid #666;
+	line-height: 25px;
+}
+#all .hide .h-con span{
+	float: left;
+	width: 145px;
+	padding-left: 15px;
+}
+#all .hide .h-con span.one{
+	background: url(../image/user_offline.gif) no-repeat left;
+}
+#all .hide .h-con span.two{
+	background: url(../image/user_online.gif) no-repeat left;
+}
+#all .hide .h-con span.one a{
+	color: green;
+}
+#all .hide .h-con span.two a{
+	color: #C82324;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#all .foot {
+	width: 1210px;
+	height: 315px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#all .foot .footHeader {
+	width: 1210px;
+	height: 145px;
+	border-top: 1px solid #ccc;
+	background: url(../image/bg.gif) repeat-x top;
+}
+
+#all .foot .footHeader dl {
+	float: left;
+	width: 155px;
+	background: url(../image/li3.gif) repeat-y left;
+	margin-top: 26px;
+	padding-left: 14px;
+}
+
+#all .foot .footHeader dl dt {
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	margin-top: 3px;
+}
+
+#all .foot .footHeader dl dd {
+	float: left;
+	width: 100%;
+	line-height: 18px;
+}
+
+#all .foot .footHeader dl dd a {
+	color: #333333;
+	font-size: 12px;
+	float: left;
+	width: 155px;
+}
+
+#all .foot .footHeader dl dd a:hover {
+	color: #C82324;
+}
+
+#all .foot .slogan {
+	width: 1210px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+#all .foot .footer {
+	width: 1210px;
+	text-align: center;
+	margin-top: 10px;
+	color: #999;
+	line-height: 18px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+#all .online-customer-service {
+	position: fixed;
+	top: 200px;
+	right: 5px;
+	z-index: 20000;
+	width: 36px;
+	height: 36px;
+	background-color: #a5a6a6;
+	display: none;
+}
+#all .hide{
+	position: fixed;
+	background-color: #a5a6a6;
+	top: 200px;
+	right: 5px;
+	width: 170px;
+	height: 205px;
+	border-radius: 8px;
+	z-index: 10000;
+	
+}
+#all .hide .h-title{
+	width: 170px;
+	height: 20px;
+	float: left;
+}
+#all .hide .h-con{
+	width: 160px;
+	height: 175px;
+	background-color:#fff ;
+	float: left;
+	margin-top: 2px;
+	margin-left: 5px;
+	border: 1px solid #666;
+	line-height: 25px;
+}
+#all .hide .h-con span{
+	float: left;
+	width: 145px;
+	padding-left: 15px;
+}
+#all .hide .h-con span.one{
+	background: url(../image/user_offline.gif) no-repeat left;
+}
+#all .hide .h-con span.two{
+	background: url(../image/user_online.gif) no-repeat left;
+}
+#all .hide .h-con span.one a{
+	color: green;
+}
+#all .hide .h-con span.two a{
+	color: #C82324;
+}
+
+
+
+
